@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/enroll_0.1.css" />
+	</head>
+	<body>
+		<header>
+			<div class="header_1">
+				<h1><a href="happy_see.html"><img src="images/img_login/log_03.png" alt="" /></a></h1>
+				<ul>
+					<li>语言：<a href="">简体中文</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+					<li>国家/地区:<a href="">中国</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+					<li><a href="">帮助</a></li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<div class="main_1">
+				 <form class="login-form" onsubmit="return false">
+				<div class="main_2">
+					<div class="main_3">
+						<h1>注册</h1>
+						<h2><a href="login.html">立即登录</a></h2>
+					</div>
+					<div class="main_4">
+						<h1>
+						<img src="images/img_login/images/log_1_07.png" alt="" />
+						<input type="text" name="username" id="first" value="" placeholder="手机号"/>
+						<img src="images/img_login/images/log_1_10.png" alt="" id="r" />
+						</h1>
+						<h1>
+						<img src="images/img_login/images/log_1_14.png" alt="" />
+						<input type="text" name="password" id="second" value="" placeholder="密码"/>
+						</h1>
+						<h1>
+						<img src="images/img_login/images/乐视---注册_03.png" alt="" />
+						<input type="text" name="" id="second" value="" placeholder="输入验证码，点击图片更换"/>
+						</h1>
+						<h1 class="h1_left">
+						<img src="images/img_login/images/乐视---注册_06.png" alt="" />
+						<input type="text" name="" id="second" value="" placeholder="输入验证码，点击图片更换"/>
+						</h1>
+						<h1 class="h1_right">
+						<a href="#"><h2>获取验证码</h2></a>
+						</h1>
+					</div>
+					<div class="main_5">
+						<input type="checkbox" checked="checked" value="true">记住登录状态
+						<a href="">重置密码</a>
+					</div>
+					<div class="main_6">
+						  <a><button class="but" type="submit" name="login-btn">登&nbsp;&nbsp;&nbsp;录</button></a> 
+					</div>
+				</div>
+				</form>
+			</div>
+		</main>
+	<script src="js/common/ajax.js"></script>
+    <script src="js/register.js"></script>
+    <script>
+        register.init('.login-form');
+    </script>
+	</body>
+</html>

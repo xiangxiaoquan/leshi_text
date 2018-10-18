@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.qf-thumb {
+    width: 600px;
+    height: 69px;
+    background-color: #000;
+    border: 10px solid #000;
+}
+/* 没有被选中的缩略图 */
+.qf-thumb .swiper-slide {
+    opacity: 0.4;
+}
+
+/* 被选中的图片 */
+.qf-thumb .swiper-slide-active {
+    opacity: 1;
+}
+.qf-banner {
+    width: 1349px;
+    height: 460px;
+}
+:focus {
+    outline: none;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    left: 570px !important;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	left: 320px !important;
+	display: none !important;	
+}
+.qf-banner:hover .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	display: inline-block !important;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+	right: 90px !important;
+	display: none !important;
+}
+.qf-banner:hover .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+	display: inline-block !important;
+}
+.swiper-button-next, .swiper-button-prev{
+	background-size: 14px 123px !important;
+}
+.qf-banner .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    opacity: 0.8;
+}
+.qf-banner .swiper-pagination-bullet-active {
+    background-color: #2D2C2D;
+    border: 1px solid #fff;
+    opacity: 1;
+
+}
+.qf-banner .swiper-pagination-bullet-active:focus {
+    outline: none;
+}
+.bg-image {
+    background-size: cover;
+    background-position: center;
+}
+/* 大图 */
+.Gintama {
+    background-image: url(../images/banner1_02.png);
+}
+.SteinsGate {
+    background-image: url(../images/banner_02.png);
+} 
+.Unicorn{
+    background-image: url(../images/bnaner2_02.png);
+}
